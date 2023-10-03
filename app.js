@@ -16,8 +16,9 @@ document.getElementById("btnLogin").addEventListener("click", () => {
 async function cargarProductos() {
     try {
       const response = await fetch("https://raw.githubusercontent.com/PunksCode/Ecommerce/main/db.json"); // Reemplaza la URL con la del servidor JSON
-      const productos = await response.json();
-  
+      const data = await response.json();
+      const productos = data.juguetes;
+
       // Lógica para mostrar los productos en tu página
       const productosContainer = document.querySelector(".juguetes"); // Reemplaza con el selector correcto de tu contenedor de productos
   
