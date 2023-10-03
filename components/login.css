@@ -1,0 +1,25 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.form__login{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+}
+.form__login input{
+    width: 423px;
+    height: 63px;
+}
+.btn__ingresar{
+    width: 423px;
+    height: 62px;
+    background: var(--color--principal);
+    color: #fff;
+    margin: 18px 0;
+}
+.btn__ingresar:hover{
+    cursor: pointer;
+}

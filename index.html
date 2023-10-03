@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="components/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Alura-Ecommerce</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Logo-Alura">
+        <div class="busqueda">
+            <input class="buscador" type="text" placeholder="¿Qué deseas buscar?">
+            <button type="submit">
+              <img class="lupa" src="img/lupa.png" alt="Buscar">
+            </button>
+          </div>
+        <button id="btnLogin" class="btn__login">Login</button>
+    </header>
+    <div id="app" class="app" style="display: none;">
+        <h2 class="title__sesion">Inicia Sesión</h2>
+        <form class="form__login" id="loginForm" action="" method="POST">
+            <label for="useremail">Correo electronico:</label>
+            <input type="email" id="useremail" name="useremail" placeholder="Escriba su correo electrónico" required>   
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Escriba su contraseña" required>  
+            <button class="btn__ingresar" type="submit">Entrar</button>
+        </form>
+    </div>
+    <main class="main__contenido" id="maincontenido">
+    <section class="promociones">
+        <div class="banner">
+            <h2 class="titulo__promocion">APROVECHA LAS SUPER PROMOS</h2>
+            <h3 class="descuento">Productos selecionados con 33% de descuento</h3>
+            <button class="btn__promocion">Ver consolas</button>
+        </div>
+    </section>
+    <section>
+        <div class="catalogo">
+            <h3 class="titulo__catalogo">Juguetes</h3>
+            <div class="juguetes" data-product></div>
+            </div>
+        <div class="consolas">
+            <h3 class="titulo__catalogo">Consolas</h3>
+        </div>
+        <div class="diversos">
+            <h3 class="titulo__catalogo">Diversos</h3>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="info">
+        <ul>
+            <img class="logo" src="img/Logo.png" alt="logo">
+            <li>Quienes somos</li>
+            <li>Politica de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras Tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anúncie aquí</li>
+        </ul>
+        <div class="contacto">
+            <form class="form" action="">
+                <h4>Contacte con nosotros</h4>
+                <label for="nombre">Tu nombre:</label>
+                <input class="nombre__form" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+               
+                <label for="mensaje">Tu mensaje:</label>
+                <textarea class="textarea" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+              
+                <button class="btn__form" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Agustin Jerez</p>
+        <p>2023</p>
+    </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="/controllers/productos-controllers.js"></script>
+    <script src="/servicios/productos-servicios.js"></script>
+</body>
+</html>

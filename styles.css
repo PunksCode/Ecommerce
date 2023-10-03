@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 64px;
+}
+.busqueda{
+    width: 393px;
+    height: 40px;
+}
+.buscador{
+    width: 329px;
+    height: 16px;
+    border: none;
+}
+.lupa{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.btn__login{
+    border: 1px solid var(--color--principal);
+    color: var(--color--principal);
+    width: 182px;
+    height: 51px;
+    border-radius: 10px;
+}
+.btn__login:hover{
+    cursor: pointer;
+}
+
+.promociones{
+    background-image: url(img/banner.png);
+    background-size: cover;
+    height: 352px;
+}
+.banner{
+    line-height: 2;
+    text-align: end;
+    margin-right: 60px;
+}
+.titulo__promocion{
+    font-size: 52px;
+    color: #FFFFFF;
+}
+.descuento{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.btn__promocion{
+    width: 129px;
+    height: 51px;
+    background: var(--color--principal);
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+.btn__promocion:hover{
+    cursor: pointer;
+}
+/*Juguetes  */
+.titulo__catalogo{
+    font-size: 32px;
+    margin: 20px 0 20px 64px;
+}
+.juguetes{
+    display: flex;
+    margin: 0 0 0 64px;
+    flex-wrap: wrap;
+}
+.producto{
+    margin: 40px 40px 20px 0;
+    width: 300px;
+}
+.product__name{
+    font-size: 25px;
+}
+.precio{
+    font-weight: bold;
+    margin: 5px 0;
+}
+.ver__producto{
+    font-size: 16px;
+    color: var(--color--principal);
+    font-weight: 300;
+    line-height: 1.2;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 64px;
+}
+.logo{
+    width: 176px;
+    height: 50px;
+}
+li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 2;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+.form label{
+    font-weight: 300;
+    font-size: 16px;
+}
+.nombre__form{
+    width: 560px;
+    height: 56px;
+    margin: 10px 0;
+}
+.textarea{
+    width: 560px;
+    height: 56px;
+    margin: 10px 0;
+    resize: none;
+}
+.btn__form{
+    width: 129px;
+    height: 51px;
+    background: var(--color--principal);
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+.btn__form{
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+{
+  "juguetes": [
+    {
+      "id": 1,
+      "name": "Muñeco de peluche osito",
+      "imageUrl": "img/productos/dinodino 2.png",
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Juego de construcción de bloques",
+      "imageUrl": "img/productos/peluche 1.png",
+      "price": 19.99
+    },
+    {
+      "id": 3,
+      "name": "Rompecabezas de 1000 piezas",
+      "imageUrl": "img/productos/camara 1.png",
+      "price": 24.99
+    },
+    {
+      "id": 4,
+      "name": "Coche de juguete a control remoto",
+      "imageUrl": "img/productos/camara unicornio 1.png",
+      "price": 34.99
+    },
+    {
+      "id": 5,
+      "name": "Muñeca de moda con accesorios",
+      "imageUrl": "img/productos/dinosaurio_1.png",
+      "price": 29.99
+    },
+    {
+      "id": 6,
+      "name": "Set de tren eléctrico",
+      "imageUrl": "img/productos/pantalla 1.png",
+      "price": 42.99
+    }
+  ]
+}
