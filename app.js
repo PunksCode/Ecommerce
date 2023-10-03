@@ -17,7 +17,7 @@ document.getElementById("btnLogin").addEventListener("click", () => {
 // Función para cargar y mostrar los productos desde JSON Server
 async function cargarProductos() {
     try {
-      const response = await fetch("http://localhost:3000/juguetes"); // Reemplaza la URL con la de tu servidor JSON
+      const response = await fetch("http://localhost:3000/jugueteschallengeonealurageeklatam5"); // Reemplaza la URL con la de tu servidor JSON
       const productos = await response.json();
   
       // Lógica para mostrar los productos en tu página
