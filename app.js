@@ -12,12 +12,10 @@ document.getElementById("btnLogin").addEventListener("click", () => {
     mostrarAppYOcultarMain();
 });
 
-// En app.js (Asegúrate de que este archivo esté incluido en tu HTML)
-
 // Función para cargar y mostrar los productos desde JSON Server
 async function cargarProductos() {
     try {
-      const response = await fetch("https://raw.githubusercontent.com/PunksCode/Ecommerce/main/db.json"); // Reemplaza la URL con la de tu servidor JSON
+      const response = await fetch("https://raw.githubusercontent.com/PunksCode/Ecommerce/main/db.json"); // Reemplaza la URL con la del servidor JSON
       const productos = await response.json();
   
       // Lógica para mostrar los productos en tu página

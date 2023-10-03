@@ -1,6 +1,6 @@
 /*Promociones */ 
 .promociones{
-    background-image: url(img/banner.png);
+    background-image: url(/img/banner.png);
     background-size: cover;
     height: 352px;
 }
