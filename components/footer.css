@@ -1,0 +1,54 @@
+/*Footer*/
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 64px;
+}
+.logo{
+    width: 176px;
+    height: 50px;
+}
+li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 2;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+.form label{
+    font-weight: 300;
+    font-size: 16px;
+}
+.nombre__form{
+    width: 560px;
+    height: 56px;
+    margin: 10px 0;
+}
+.textarea{
+    width: 560px;
+    height: 56px;
+    margin: 10px 0;
+    resize: none;
+}
+.btn__form{
+    width: 129px;
+    height: 51px;
+    background: var(--color--principal);
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+.btn__form{
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+}

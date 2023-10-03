@@ -1,0 +1,30 @@
+/* header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 64px;
+}
+.busqueda{
+    width: 393px;
+    height: 40px;
+}
+.buscador{
+    width: 329px;
+    height: 16px;
+    border: none;
+}
+.lupa{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.btn__login{
+    border: 1px solid var(--color--principal);
+    color: var(--color--principal);
+    width: 182px;
+    height: 51px;
+    border-radius: 10px;
+}
+.btn__login:hover{
+    cursor: pointer;
+}
